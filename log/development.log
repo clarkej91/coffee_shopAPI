@@ -957,3 +957,8 @@ Processing by ShopsController#index as HTML
 Completed 200 OK in 19ms (Views: 1.0ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/shops" for ::1 at 2019-06-10 13:42:27 -0400
+Processing by ShopsController#index as HTML
+Completed 200 OK in 79ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
