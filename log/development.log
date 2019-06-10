@@ -1,0 +1,959 @@
+Started GET "/" for ::1 at 2019-06-07 16:44:20 -0400
+  
+PG::ConnectionBad (could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+):
+  
+pg (1.1.4) lib/pg.rb:56:in `initialize'
+pg (1.1.4) lib/pg.rb:56:in `new'
+pg (1.1.4) lib/pg.rb:56:in `connect'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:692:in `connect'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:223:in `initialize'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `new'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `postgresql_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:811:in `new_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:855:in `checkout_new_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:834:in `try_to_checkout_new_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:795:in `acquire_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:523:in `checkout'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:382:in `connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:1014:in `retrieve_connection'
+activerecord (5.2.3) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.3) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.3) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-06-07 16:46:50 -0400
+  
+PG::ConnectionBad (could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+):
+  
+pg (1.1.4) lib/pg.rb:56:in `initialize'
+pg (1.1.4) lib/pg.rb:56:in `new'
+pg (1.1.4) lib/pg.rb:56:in `connect'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:692:in `connect'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:223:in `initialize'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `new'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `postgresql_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:811:in `new_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:855:in `checkout_new_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:834:in `try_to_checkout_new_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:795:in `acquire_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:523:in `checkout'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:382:in `connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:1014:in `retrieve_connection'
+activerecord (5.2.3) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.3) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.3) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-06-07 16:47:10 -0400
+  
+PG::ConnectionBad (could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+):
+  
+pg (1.1.4) lib/pg.rb:56:in `initialize'
+pg (1.1.4) lib/pg.rb:56:in `new'
+pg (1.1.4) lib/pg.rb:56:in `connect'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:692:in `connect'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:223:in `initialize'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `new'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `postgresql_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:811:in `new_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:855:in `checkout_new_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:834:in `try_to_checkout_new_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:795:in `acquire_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:523:in `checkout'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:382:in `connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:1014:in `retrieve_connection'
+activerecord (5.2.3) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.3) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.3) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-06-07 16:48:04 -0400
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "coffee_shops_development" does not exist
+):
+  
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:696:in `rescue in connect'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:691:in `connect'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:223:in `initialize'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `new'
+activerecord (5.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `postgresql_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:811:in `new_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:855:in `checkout_new_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:834:in `try_to_checkout_new_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:795:in `acquire_connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:523:in `checkout'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:382:in `connection'
+activerecord (5.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:1014:in `retrieve_connection'
+activerecord (5.2.3) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.3) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.3) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  [1m[35m (453.0ms)[0m  [1m[35mCREATE DATABASE "coffee_shops_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+  [1m[35m (339.2ms)[0m  [1m[35mCREATE DATABASE "coffee_shops_test" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+Started GET "/" for ::1 at 2019-06-07 16:50:53 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/jacobclarke/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/jacobclarke/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (63.5ms)
+Completed 200 OK in 196ms (Views: 78.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-09 12:27:09 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/jacobclarke/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/jacobclarke/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (10.4ms)
+Completed 200 OK in 23ms (Views: 13.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/shops" for ::1 at 2019-06-09 12:27:12 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/shops"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/shops/1" for ::1 at 2019-06-09 12:27:20 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/shops/1"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-06-09 12:27:23 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/jacobclarke/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/jacobclarke/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (5.0ms)
+Completed 200 OK in 9ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/shops" for ::1 at 2019-06-09 12:31:53 -0400
+Processing by ShopsController#index as HTML
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/shops" for ::1 at 2019-06-09 12:36:17 -0400
+Processing by ShopsController#index as HTML
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/shops" for ::1 at 2019-06-09 12:47:14 -0400
+Processing by ShopsController#index as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/jacobclarke/Desktop/Best_of_Caffeine_Nation/CaffeineAPI/coffee_shops/app/models/shop.rb:11: syntax error, unexpected end-of-input, expecting end):
+  
+app/models/shop.rb:11: syntax error, unexpected end-of-input, expecting end
+app/controllers/shops_controller.rb:4:in `index'
+Started GET "/shops" for ::1 at 2019-06-09 12:48:05 -0400
+Processing by ShopsController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/jacobclarke/Desktop/Best_of_Caffeine_Nation/CaffeineAPI/coffee_shops/app/models/shop.rb:10: syntax error, unexpected end-of-input, expecting end):
+  
+app/models/shop.rb:10: syntax error, unexpected end-of-input, expecting end
+app/controllers/shops_controller.rb:4:in `index'
+Started GET "/shops" for ::1 at 2019-06-09 12:48:32 -0400
+Processing by ShopsController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/jacobclarke/Desktop/Best_of_Caffeine_Nation/CaffeineAPI/coffee_shops/app/models/shop.rb:11: syntax error, unexpected end-of-input, expecting end):
+  
+app/models/shop.rb:11: syntax error, unexpected end-of-input, expecting end
+app/controllers/shops_controller.rb:4:in `index'
+Started GET "/shops" for ::1 at 2019-06-09 12:51:47 -0400
+Processing by ShopsController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/jacobclarke/Desktop/Best_of_Caffeine_Nation/CaffeineAPI/coffee_shops/app/models/shop.rb:9: syntax error, unexpected end-of-input, expecting end):
+  
+app/models/shop.rb:9: syntax error, unexpected end-of-input, expecting end
+app/controllers/shops_controller.rb:4:in `index'
+Started GET "/shops" for ::1 at 2019-06-09 12:52:05 -0400
+Processing by ShopsController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/jacobclarke/Desktop/Best_of_Caffeine_Nation/CaffeineAPI/coffee_shops/app/models/shop.rb:10: syntax error, unexpected end-of-input, expecting end):
+  
+app/models/shop.rb:10: syntax error, unexpected end-of-input, expecting end
+app/controllers/shops_controller.rb:4:in `index'
+Started GET "/shops" for ::1 at 2019-06-09 12:53:07 -0400
+Processing by ShopsController#index as HTML
+Completed 200 OK in 16ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/shops" for ::1 at 2019-06-09 12:55:18 -0400
+Processing by ShopsController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/jacobclarke/Desktop/Best_of_Caffeine_Nation/CaffeineAPI/coffee_shops/app/models/shop.rb:10: syntax error, unexpected end-of-input, expecting end):
+  
+app/models/shop.rb:10: syntax error, unexpected end-of-input, expecting end
+app/controllers/shops_controller.rb:4:in `index'
+Started GET "/shops" for ::1 at 2019-06-09 12:57:59 -0400
+Processing by ShopsController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/jacobclarke/Desktop/Best_of_Caffeine_Nation/CaffeineAPI/coffee_shops/app/models/shop.rb:14: syntax error, unexpected end-of-input, expecting end):
+  
+app/models/shop.rb:14: syntax error, unexpected end-of-input, expecting end
+app/controllers/shops_controller.rb:4:in `index'
+Started GET "/shops" for ::1 at 2019-06-09 12:58:00 -0400
+Processing by ShopsController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/jacobclarke/Desktop/Best_of_Caffeine_Nation/CaffeineAPI/coffee_shops/app/models/shop.rb:14: syntax error, unexpected end-of-input, expecting end):
+  
+app/models/shop.rb:14: syntax error, unexpected end-of-input, expecting end
+app/controllers/shops_controller.rb:4:in `index'
+Started GET "/shops" for ::1 at 2019-06-09 12:58:01 -0400
+Processing by ShopsController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/jacobclarke/Desktop/Best_of_Caffeine_Nation/CaffeineAPI/coffee_shops/app/models/shop.rb:14: syntax error, unexpected end-of-input, expecting end):
+  
+app/models/shop.rb:14: syntax error, unexpected end-of-input, expecting end
+app/controllers/shops_controller.rb:4:in `index'
+Started GET "/shops" for ::1 at 2019-06-09 12:58:01 -0400
+Processing by ShopsController#index as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/jacobclarke/Desktop/Best_of_Caffeine_Nation/CaffeineAPI/coffee_shops/app/models/shop.rb:14: syntax error, unexpected end-of-input, expecting end):
+  
+app/models/shop.rb:14: syntax error, unexpected end-of-input, expecting end
+app/controllers/shops_controller.rb:4:in `index'
+Started GET "/shops" for ::1 at 2019-06-09 12:58:02 -0400
+Processing by ShopsController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/jacobclarke/Desktop/Best_of_Caffeine_Nation/CaffeineAPI/coffee_shops/app/models/shop.rb:14: syntax error, unexpected end-of-input, expecting end):
+  
+app/models/shop.rb:14: syntax error, unexpected end-of-input, expecting end
+app/controllers/shops_controller.rb:4:in `index'
+Started GET "/shops" for ::1 at 2019-06-09 12:59:01 -0400
+Processing by ShopsController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/jacobclarke/Desktop/Best_of_Caffeine_Nation/CaffeineAPI/coffee_shops/app/models/shop.rb:14: syntax error, unexpected end-of-input, expecting end):
+  
+app/models/shop.rb:14: syntax error, unexpected end-of-input, expecting end
+app/controllers/shops_controller.rb:4:in `index'
+Started GET "/shops" for ::1 at 2019-06-09 12:59:02 -0400
+Processing by ShopsController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/jacobclarke/Desktop/Best_of_Caffeine_Nation/CaffeineAPI/coffee_shops/app/models/shop.rb:14: syntax error, unexpected end-of-input, expecting end):
+  
+app/models/shop.rb:14: syntax error, unexpected end-of-input, expecting end
+app/controllers/shops_controller.rb:4:in `index'
+Started GET "/shops" for ::1 at 2019-06-09 12:59:03 -0400
+Processing by ShopsController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/jacobclarke/Desktop/Best_of_Caffeine_Nation/CaffeineAPI/coffee_shops/app/models/shop.rb:14: syntax error, unexpected end-of-input, expecting end):
+  
+app/models/shop.rb:14: syntax error, unexpected end-of-input, expecting end
+app/controllers/shops_controller.rb:4:in `index'
+Started GET "/shops" for ::1 at 2019-06-09 12:59:03 -0400
+Processing by ShopsController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/jacobclarke/Desktop/Best_of_Caffeine_Nation/CaffeineAPI/coffee_shops/app/models/shop.rb:14: syntax error, unexpected end-of-input, expecting end):
+  
+app/models/shop.rb:14: syntax error, unexpected end-of-input, expecting end
+app/controllers/shops_controller.rb:4:in `index'
+Started GET "/shops" for ::1 at 2019-06-09 12:59:03 -0400
+Processing by ShopsController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/jacobclarke/Desktop/Best_of_Caffeine_Nation/CaffeineAPI/coffee_shops/app/models/shop.rb:14: syntax error, unexpected end-of-input, expecting end):
+  
+app/models/shop.rb:14: syntax error, unexpected end-of-input, expecting end
+app/controllers/shops_controller.rb:4:in `index'
+Started GET "/shops" for ::1 at 2019-06-09 12:59:04 -0400
+Processing by ShopsController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/jacobclarke/Desktop/Best_of_Caffeine_Nation/CaffeineAPI/coffee_shops/app/models/shop.rb:14: syntax error, unexpected end-of-input, expecting end):
+  
+app/models/shop.rb:14: syntax error, unexpected end-of-input, expecting end
+app/controllers/shops_controller.rb:4:in `index'
+Started GET "/shops" for ::1 at 2019-06-09 12:59:04 -0400
+Processing by ShopsController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/jacobclarke/Desktop/Best_of_Caffeine_Nation/CaffeineAPI/coffee_shops/app/models/shop.rb:14: syntax error, unexpected end-of-input, expecting end):
+  
+app/models/shop.rb:14: syntax error, unexpected end-of-input, expecting end
+app/controllers/shops_controller.rb:4:in `index'
+Started GET "/shops" for ::1 at 2019-06-09 13:00:41 -0400
+Processing by ShopsController#index as HTML
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/jacobclarke/Desktop/Best_of_Caffeine_Nation/CaffeineAPI/coffee_shops/app/models/shop.rb:14: syntax error, unexpected end-of-input, expecting end):
+  
+app/models/shop.rb:14: syntax error, unexpected end-of-input, expecting end
+app/controllers/shops_controller.rb:4:in `index'
+Started GET "/shops" for ::1 at 2019-06-09 13:01:08 -0400
+Processing by ShopsController#index as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant ShopsController::Shops):
+  
+app/controllers/shops_controller.rb:4:in `index'
+Started GET "/shops" for ::1 at 2019-06-09 13:01:18 -0400
+Processing by ShopsController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/jacobclarke/Desktop/Best_of_Caffeine_Nation/CaffeineAPI/coffee_shops/app/models/shop.rb:14: syntax error, unexpected end-of-input, expecting end):
+  
+app/models/shop.rb:14: syntax error, unexpected end-of-input, expecting end
+app/controllers/shops_controller.rb:4:in `index'
+Started GET "/shops" for ::1 at 2019-06-09 18:58:19 -0400
+Processing by ShopsController#index as HTML
+Completed 200 OK in 15ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/shops/1" for ::1 at 2019-06-09 19:16:08 -0400
+Processing by ShopsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `result' for Shop:Class
+Did you mean?  results):
+  
+app/models/shop.rb:19:in `find'
+app/controllers/shops_controller.rb:8:in `show'
+Started GET "/shops/1" for ::1 at 2019-06-09 19:17:34 -0400
+Processing by ShopsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/shops/2" for ::1 at 2019-06-09 19:17:38 -0400
+Processing by ShopsController#show as HTML
+  Parameters: {"id"=>"2"}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/shops/3" for ::1 at 2019-06-09 19:17:42 -0400
+Processing by ShopsController#show as HTML
+  Parameters: {"id"=>"3"}
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/shops/4" for ::1 at 2019-06-09 19:17:44 -0400
+Processing by ShopsController#show as HTML
+  Parameters: {"id"=>"4"}
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/shops" for ::1 at 2019-06-09 19:30:10 -0400
+Processing by ShopsController#index as HTML
+Completed 200 OK in 11ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/show" for ::1 at 2019-06-09 20:07:46 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/show"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/shops" for ::1 at 2019-06-09 20:08:06 -0400
+Processing by ShopsController#index as */*
+  Parameters: {"task_item"=>"Learn how to integrate rails and react", "completed"=>false, "shop"=>{"task_item"=>"Learn how to integrate rails and react", "completed"=>false}}
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/shops" for ::1 at 2019-06-09 20:12:50 -0400
+Processing by ShopsController#create as */*
+  Parameters: {"id"=>12, "name"=>"La Colombe", "location"=>"Philadelphia", "drink"=>"cold brew", "shop"=>{"id"=>12, "name"=>"La Colombe", "location"=>"Philadelphia", "drink"=>"cold brew"}}
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+actionpack (5.2.3) lib/action_controller/metal/request_forgery_protection.rb:211:in `handle_unverified_request'
+actionpack (5.2.3) lib/action_controller/metal/request_forgery_protection.rb:243:in `handle_unverified_request'
+actionpack (5.2.3) lib/action_controller/metal/request_forgery_protection.rb:238:in `verify_authenticity_token'
+activesupport (5.2.3) lib/active_support/callbacks.rb:426:in `block in make_lambda'
+activesupport (5.2.3) lib/active_support/callbacks.rb:198:in `block (2 levels) in halting'
+actionpack (5.2.3) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (5.2.3) lib/active_support/callbacks.rb:199:in `block in halting'
+activesupport (5.2.3) lib/active_support/callbacks.rb:513:in `block in invoke_before'
+activesupport (5.2.3) lib/active_support/callbacks.rb:513:in `each'
+activesupport (5.2.3) lib/active_support/callbacks.rb:513:in `invoke_before'
+activesupport (5.2.3) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.2.3) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.3) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.3) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.3) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.3) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.3) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.3) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.3) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.3) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.3) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.3) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.3) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.3) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (5.2.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.3) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/shops" for ::1 at 2019-06-09 20:14:02 -0400
+Processing by ShopsController#create as */*
+  Parameters: {"id"=>12, "name"=>"La Colombe", "location"=>"Philadelphia", "drink"=>"cold brew", "shop"=>{"id"=>12, "name"=>"La Colombe", "location"=>"Philadelphia", "drink"=>"cold brew"}}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+PG::UndefinedTable (ERROR:  relation "shows" does not exist
+LINE 1:         INSERT INTO shows (name, location)
+                            ^
+):
+  
+app/models/shop.rb:28:in `async_exec'
+app/models/shop.rb:28:in `create'
+app/controllers/shops_controller.rb:13:in `create'
+Started POST "/shops" for ::1 at 2019-06-09 20:14:35 -0400
+Processing by ShopsController#create as */*
+  Parameters: {"id"=>12, "name"=>"La Colombe", "location"=>"Philadelphia", "drink"=>"cold brew", "shop"=>{"id"=>12, "name"=>"La Colombe", "location"=>"Philadelphia", "drink"=>"cold brew"}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+PG::UndefinedTable (ERROR:  relation "shows" does not exist
+LINE 1:         INSERT INTO shows (name, location, drink)
+                            ^
+):
+  
+app/models/shop.rb:28:in `async_exec'
+app/models/shop.rb:28:in `create'
+app/controllers/shops_controller.rb:13:in `create'
+Started POST "/shops" for ::1 at 2019-06-09 20:19:50 -0400
+Processing by ShopsController#create as */*
+  Parameters: {"id"=>12, "name"=>"La Colombe", "location"=>"Philadelphia", "drink"=>"cold brew", "shop"=>{"id"=>12, "name"=>"La Colombe", "location"=>"Philadelphia", "drink"=>"cold brew"}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+PG::UndefinedTable (ERROR:  relation "shows" does not exist
+LINE 1:         INSERT INTO shows (name, location, drink)
+                            ^
+):
+  
+app/models/shop.rb:28:in `async_exec'
+app/models/shop.rb:28:in `create'
+app/controllers/shops_controller.rb:13:in `create'
+Started POST "/shops" for ::1 at 2019-06-09 20:25:14 -0400
+Processing by ShopsController#create as */*
+  Parameters: {"id"=>12, "name"=>"La Colombe", "location"=>"Philadelphia", "shop"=>{"id"=>12, "name"=>"La Colombe", "location"=>"Philadelphia"}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+PG::UndefinedTable (ERROR:  relation "shows" does not exist
+LINE 1:         INSERT INTO shows (name, location, drink)
+                            ^
+):
+  
+app/models/shop.rb:28:in `async_exec'
+app/models/shop.rb:28:in `create'
+app/controllers/shops_controller.rb:13:in `create'
+Started POST "/shops" for ::1 at 2019-06-09 20:35:16 -0400
+Processing by ShopsController#create as */*
+  Parameters: {"id"=>12, "name"=>"La Colombe", "location"=>"Philadelphia", "shop"=>{"id"=>12, "name"=>"La Colombe", "location"=>"Philadelphia"}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+PG::UndefinedTable (ERROR:  relation "shows" does not exist
+LINE 1:         INSERT INTO shows (name, location, drink)
+                            ^
+):
+  
+app/models/shop.rb:28:in `async_exec'
+app/models/shop.rb:28:in `create'
+app/controllers/shops_controller.rb:13:in `create'
+Started POST "/shops/1" for ::1 at 2019-06-09 20:40:10 -0400
+  
+ActionController::RoutingError (No route matches [POST] "/shops/1"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/shops/1" for ::1 at 2019-06-09 20:40:15 -0400
+Processing by ShopsController#show as */*
+  Parameters: {"id"=>"1", "name"=>"La Colombe", "location"=>"Philadelphia", "shop"=>{"id"=>"1", "name"=>"La Colombe", "location"=>"Philadelphia"}}
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/shops/" for ::1 at 2019-06-09 20:42:22 -0400
+Processing by ShopsController#create as */*
+  Parameters: {"name"=>"La Colombe", "location"=>"Philadelphia", "drink"=>"latte", "shop"=>{"name"=>"La Colombe", "location"=>"Philadelphia", "drink"=>"latte"}}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+PG::UndefinedTable (ERROR:  relation "shows" does not exist
+LINE 1:         INSERT INTO shows (name, location, drink)
+                            ^
+):
+  
+app/models/shop.rb:28:in `async_exec'
+app/models/shop.rb:28:in `create'
+app/controllers/shops_controller.rb:14:in `create'
+Started GET "/shops" for ::1 at 2019-06-09 20:43:36 -0400
+Processing by ShopsController#index as */*
+  Parameters: {"name"=>"La Colombe", "location"=>"Philadelphia", "drink"=>"latte", "shop"=>{"name"=>"La Colombe", "location"=>"Philadelphia", "drink"=>"latte"}}
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/shops/3" for ::1 at 2019-06-09 20:43:48 -0400
+Processing by ShopsController#show as */*
+  Parameters: {"name"=>"La Colombe", "location"=>"Philadelphia", "drink"=>"latte", "id"=>"3", "shop"=>{"name"=>"La Colombe", "location"=>"Philadelphia", "drink"=>"latte"}}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/shops" for ::1 at 2019-06-09 20:43:57 -0400
+Processing by ShopsController#create as */*
+  Parameters: {"name"=>"La Colombe", "location"=>"Philadelphia", "drink"=>"latte", "shop"=>{"name"=>"La Colombe", "location"=>"Philadelphia", "drink"=>"latte"}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+PG::UndefinedTable (ERROR:  relation "shows" does not exist
+LINE 1:         INSERT INTO shows (name, location, drink)
+                            ^
+):
+  
+app/models/shop.rb:28:in `async_exec'
+app/models/shop.rb:28:in `create'
+app/controllers/shops_controller.rb:14:in `create'
+Started POST "/shops" for ::1 at 2019-06-09 20:49:52 -0400
+Processing by ShopsController#create as */*
+  Parameters: {"name"=>"La Colombe", "shop"=>{"name"=>"La Colombe"}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+PG::UndefinedTable (ERROR:  relation "people" does not exist
+LINE 1:               INSERT INTO people (name, age)
+                                  ^
+):
+  
+app/models/shop.rb:28:in `async_exec'
+app/models/shop.rb:28:in `create'
+app/controllers/shops_controller.rb:14:in `create'
+Started POST "/shops" for ::1 at 2019-06-09 21:35:40 -0400
+Processing by ShopsController#create as */*
+  Parameters: {"name"=>"La Colombe", "location"=>"Philadelphia", "drink"=>"latte", "shop"=>{"name"=>"La Colombe", "location"=>"Philadelphia", "drink"=>"latte"}}
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/shops" for ::1 at 2019-06-09 21:35:47 -0400
+Processing by ShopsController#index as */*
+  Parameters: {"name"=>"La Colombe", "location"=>"Philadelphia", "drink"=>"latte", "shop"=>{"name"=>"La Colombe", "location"=>"Philadelphia", "drink"=>"latte"}}
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/shops/12" for ::1 at 2019-06-09 21:39:27 -0400
+  
+ActionController::RoutingError (No route matches [DELETE] "/shops/12"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started DELETE "/shops/12" for ::1 at 2019-06-09 21:39:54 -0400
+Processing by ShopsController#delete as */*
+  Parameters: {"name"=>"La Colombe", "location"=>"Philadelphia", "drink"=>"latte", "id"=>"12", "shop"=>{"name"=>"La Colombe", "location"=>"Philadelphia", "drink"=>"latte"}}
+Completed 200 OK in 5ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started PUT "/shops/1" for ::1 at 2019-06-09 21:43:38 -0400
+Processing by ShopsController#update as */*
+  Parameters: {"name"=>"La Colombe", "location"=>"Philadelphia", "drink"=>"latte", "id"=>"1", "shop"=>{"name"=>"La Colombe", "location"=>"Philadelphia", "drink"=>"latte"}}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/shops" for ::1 at 2019-06-09 21:43:48 -0400
+Processing by ShopsController#index as */*
+  Parameters: {"name"=>"La Colombe", "location"=>"Philadelphia", "drink"=>"latte", "shop"=>{"name"=>"La Colombe", "location"=>"Philadelphia", "drink"=>"latte"}}
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/shops/1" for ::1 at 2019-06-09 21:45:54 -0400
+Processing by ShopsController#show as */*
+  Parameters: {"name"=>"La Colombe", "location"=>"Philadelphia", "drink"=>"latte", "id"=>"1", "shop"=>{"name"=>"La Colombe", "location"=>"Philadelphia", "drink"=>"latte"}}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started PUT "/shops/1" for ::1 at 2019-06-09 21:46:10 -0400
+Processing by ShopsController#update as */*
+  Parameters: {"name"=>"La Colombe", "location"=>"Philadelphia", "drink"=>"latte", "id"=>"1", "shop"=>{"name"=>"La Colombe", "location"=>"Philadelphia", "drink"=>"latte"}}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+PG::SyntaxError (ERROR:  syntax error at or near "'Philadelphia'"
+LINE 2:         SET name='La Colombe', 'Philadelphia', 'latte'
+                                       ^
+):
+  
+app/models/shop.rb:49:in `async_exec'
+app/models/shop.rb:49:in `update'
+app/controllers/shops_controller.rb:22:in `update'
+Started PUT "/shops/1" for ::1 at 2019-06-09 21:47:15 -0400
+Processing by ShopsController#update as */*
+  Parameters: {"name"=>"La Colombe", "location"=>"Philadelphia", "drink"=>"latte", "id"=>"1", "shop"=>{"name"=>"La Colombe", "location"=>"Philadelphia", "drink"=>"latte"}}
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-10 10:41:27 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/jacobclarke/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/jacobclarke/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (3.8ms)
+Completed 200 OK in 18ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/shops" for ::1 at 2019-06-10 10:41:30 -0400
+Processing by ShopsController#index as HTML
+Completed 200 OK in 19ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
