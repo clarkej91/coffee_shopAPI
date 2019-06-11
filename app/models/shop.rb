@@ -17,7 +17,8 @@ class Shop
             "id" => result["id"].to_i,
             "name" => result["name"],
             "location" => result["location"],
-            "drink" => result["drink"]
+            "drink" => result["drink"],
+            "liked" => result["liked"]
         }
       end
   end
