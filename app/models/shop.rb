@@ -34,15 +34,21 @@ class Shop
       "id" => results.first["id"].to_i,
       "name" => results.first["name"],
       "location" => results.first["location"],
-      "drink" => results.first["drink"]
+      "drink" => results.first["drink"],
+      "liked" =>
+        if result["liked"] === 'f'
+          result["liked"] = false
+        else
+          result["liked"] = true
+        end
     }
   end
 
   def self.create(opts)
     results = DB.exec(
       <<-SQL
-        INSERT INTO shops (name, location, drink)
-        VALUES ( '#{opts["name"]}', '#{opts["location"]}', '#{opts["drink"]}')
+        INSERT INTO shops (name, location, drink, liked)
+        VALUES ( '#{opts["name"]}', '#{opts["location"]}', '#{opts["drink"]}', '#{opts["liked"]}')
         RETURNING id, name, location, drink;
       SQL
     )
@@ -50,7 +56,13 @@ class Shop
       "id" => results.first["id"].to_i,
       "name" => results.first["name"],
       "location" => results.first["location"],
-      "drink" => results.first["drink"]
+      "drink" => results.first["drink"],
+      "liked" =>
+        if result.first["liked"] === 'f'
+          liked = false
+        else
+          liked = true
+        end
     }
   end
 
