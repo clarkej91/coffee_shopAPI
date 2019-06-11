@@ -47,16 +47,17 @@ class Shop
   def self.create(opts)
     results = DB.exec(
       <<-SQL
-        INSERT INTO shops (name, location, drink)
-        VALUES ( '#{opts["name"]}', '#{opts["location"]}', '#{opts["drink"]}')
-        RETURNING id, name, location, drink;
+        INSERT INTO shops (name, location, drink, liked)
+        VALUES ( '#{opts["name"]}', '#{opts["location"]}', '#{opts["drink"]}' '#{opts["liked"]}')
+        RETURNING id, name, location, drink, liked;
       SQL
     )
     return {
       "id" => results.first["id"].to_i,
       "name" => results.first["name"],
       "location" => results.first["location"],
-      "drink" => results.first["drink"]
+      "drink" => results.first["drink"],
+      "liked" => liked
     }
   end
 
