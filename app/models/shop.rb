@@ -18,7 +18,12 @@ class Shop
             "name" => result["name"],
             "location" => result["location"],
             "drink" => result["drink"],
-            "liked" => result["liked"]
+            "liked" =>
+            if result["liked"] === 'f'
+              result["liked"] = false
+            else
+              result["liked"] = true
+            end
         }
       end
   end
